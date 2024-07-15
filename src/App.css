@@ -1,0 +1,316 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.input input {
+  width: 530px;
+  height: 48px;
+  font-size: 16px;
+  padding-left: 20px;
+  background-color: #F0F1F2;
+  border-radius: 50px;
+  border: 1px solid #F0F1F2;
+  margin-left: 100px;
+  cursor: pointer;
+}
+.header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.container {
+  max-width: 1920px;
+  height: 100%;
+  padding: 15px 80px ;
+}
+.logo img {
+  width: 140px;
+  cursor: pointer;
+}
+
+.translate img {
+  width: 167px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+.location img {
+  width: 258px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.selector {
+  display: flex;
+  margin-top: 25px;
+}
+
+.parama {
+  display: flex;
+  margin: 10px;
+}
+
+.parama p {
+  color: #9A9EA6;
+  font-size: 14px;
+  margin-right: 60px;
+  cursor: pointer;
+}
+
+.parama p:last-child {
+  margin-right: 0;
+}
+
+.parama p:hover {
+  color: #000;
+  font-size: 14px;
+  text-decoration: overline;
+}
+
+.trash img {
+  margin-left: 400px;
+}
+
+.hero {
+  margin-top: 50px;
+  display: flex;
+}
+
+.text h3 {
+  border: 1px solid #E5EDFF;
+  background-color: #E5EDFF;
+  color: #4F7DF3;
+  font-size: 14px;
+  width: 280px;
+  height: 37px;
+  padding: 5px;
+  border-radius: 50px;
+}
+
+.text h1 {
+  color: #181E4B;
+  font-size: 76px;
+  margin-top: 20px;
+}
+
+.text span {
+  color: #4475F2;
+}
+
+.text p {
+  color: #5E6282;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.btns button {
+  width: 198px;
+  height: 60px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #4475F2;
+  border: 1px solid #4475F2;
+  margin-right: 20px;
+  margin-top: 30px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btns button:last-child {
+  width: 198px;
+  height: 60px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #4475F2;
+  border: 1px solid #4475F2;
+  margin-right: 0;
+}
+
+.btns button:hover {
+  width: 198px;
+  height: 60px;
+  font-size: 16px;
+  color: #5E6282;
+  background-color: #fff;
+  border: 1px solid #4475F2;
+  margin-right: 20px;
+  margin-top: 30px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.picture {
+  margin-left: 70px;
+}
+
+.sponsor {
+  display: flex;
+}
+
+.sponsor img {
+  margin-top: 50px;
+  margin-right: 60px;
+}
+
+.sponsor img:last-child {
+  margin-top: 50px;
+  margin-right: 0;
+}
+
+.favorit {
+  margin-top: 60px;
+}
+
+.favorit p {
+  font-size: 18px;
+  color: #4475F2;
+}
+
+.air {
+  display: flex;
+  justify-content: space-between;
+}
+
+.air h1 {
+  font-size: 48px;
+  color: #14183E;
+  margin-top: 5px;
+}
+
+.carts {
+  display: flex;
+}
+
+.cart {
+  margin-right: 80px;
+  margin-top: 60px;
+  border: 1px solid #5E6282;
+  border-radius: 10px;
+  background-color: #dcdde1;
+}
+
+.cart:last-child {
+  margin-right: 0;
+}
+
+.cart img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.cart p,span {
+  margin: 10px;
+}
+
+.cart span {
+  font-size: 18px;
+}
+
+.tempat {
+  display: flex;
+  margin-top: 120px;
+}
+
+.reser {
+  color: #4475F2;
+  font-size: 18px;
+}
+
+.textTemp h1 {
+  color: #14183E;
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+.gak {
+  display: flex;
+  margin-top: 20px;
+}
+
+.gak img {
+  width: 50px;
+  height: 50px;
+  margin-top: 30px;
+}
+
+.about {
+  margin-left: 10px;
+}
+
+.about h1 {
+  color: #5E6282;
+  font-size: 18px;
+}
+
+.about p {
+  color: #5E6282;
+  font-size: 16px;
+}
+
+.imgTemp {
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+.eart {
+  margin-top: 50px;
+}
+
+.wis {
+  text-align: center;
+  color: #4737FF;
+  font-size: 18px;
+}
+
+.cari {
+  font-size: bold;
+  color: #151D21;
+  font-size: 56px;
+  text-align: center;
+}
+
+.earth h3 {
+  color: #18191F;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.earth img {
+  margin-top: 10px;
+}
+
+.geolo {
+  display: flex;
+  margin-left: 90px;
+  margin-right: 90px;
+  gap: 90px;
+}
+
+.geo {
+  display: flex;
+}
+
+.geo img {
+  width: 55px;
+  height: 55px;
+}
+
+.pop {
+  margin-left: 10px;
+}
+
+.pop h1 {
+  color: #18214D;
+  font-size: 22px;
+}
+
+.pop p {
+  color: #3E4462;
+  font-size: #3E4462;
+}
